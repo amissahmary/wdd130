@@ -62,6 +62,7 @@ h1 {
 
 article {
     position: absolute;
+    padding: 10px;
 }
 
 .hero article img {
