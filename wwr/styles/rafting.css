@@ -3,8 +3,8 @@
     --secondary-color: #6BB8CE;
     --accent1-color: #3B84FF;
     --accent2-color: #3D5FFF;
-    --heading-font: "" Playwrite DK Loopet", cursive;";
-    --body-font: "playpen sans hebrew" .cursive;
+    --heading-font: "Playwrite DK Loopet", cursive;
+    --body-font: "playpen sans hebrew", cursive;
 }
 
 * {
