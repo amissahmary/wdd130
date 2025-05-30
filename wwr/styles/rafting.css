@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #8ECED2;
-    --secondary-color: #6BB8CE;
+    --primary-color: black;
+    --secondary-color: aqua;
     --accent1-color: #3B84FF;
-    --accent2-color: #3D5FFF;
+    --accent2-color: #e81313;
     --heading-font: "Playwrite DK Loopet", cursive;
     --body-font: "playpen sans hebrew", cursive;
 }
@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 header,
@@ -57,8 +57,8 @@ h1 {
     padding: 10px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent2-color);
-    color: #fff;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 article {
@@ -68,8 +68,8 @@ article {
     padding: 50px;
     text-align: left;
     opacity: 0.8;
-    background-color: var(--accent1-color);
-    color: #fff;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .hero article img {
@@ -94,7 +94,7 @@ header img {
 
 header nav a {
     text-decoration: none;
-    color: #fff;
+    color: var(--primary-color);
 }
 
 #layout {
@@ -131,5 +131,5 @@ footer {
     display: flex;
     justify-content: center;
     background-color: var(--secondary-color);
-    color: #fff;
+    color: var(--primary-color);
 }
