@@ -43,7 +43,7 @@ main {
 }
 
 header, .grid, footer {
-    max-width: 840px;
+    max-width: 98%;
     margin: 0% auto;
 }
 
