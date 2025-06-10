@@ -25,6 +25,7 @@
         </nav>
     </header>
     <main>
+        <h1>Contact Us</h1>
         <section>
             <h2>Meet The Team</h2>
             <div id="beauty">
@@ -65,31 +66,35 @@
             <p>Please fill the forms below</p>
             <form>
                 <div>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name">
+                    <label for="f1">Name:</label>
+                    <input type="text" id="f1" name="name">
                 </div>
                 <div>
-                    <label for="email">Email address: </label>
-                    <input type="email" id="email">
+                    <label for="f2">Email address: </label>
+                    <input type="email" id="f2" name="email">
                 </div>
                 <div>
-                    <label for="purpose">Purpose</label>
-                    <select id="purpose">
-                        <option>General Inquiry</option>
+                    <label for="f5">Telephone</label>
+                    <input type="number" id="f5" name="telephone">
+                </div>
+                <div>
+                    <label for="f3">Purpose</label>
+                    <select id="f3" name="purpose">
+                        <option>Inquiry</option>
                         <option>Reservation Question</option>
                         <option>Website Suggestion</option>
                     </select>
                 </div>
                 <div>
-                    <label for="message">Message</label>
-                    <input type="text" id="message">
+                    <label for="f4">Message</label>
+                    <textarea id="f4" name="message"></textarea>
                 </div>
                 <div>
-                    <label for="subscription">Please subscription me to the monthly newsletter</label>
-                    <input type="checkbox" id="subscription">
+                    <input type="checkbox" id="f5" name="subscription">
+                    <label for="f5">Please subscribe me to the monthly newsletter</label>
                 </div>
                 <div id="submit">
-                    <input type="submit">
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         </section>
