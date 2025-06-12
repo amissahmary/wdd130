@@ -51,6 +51,7 @@ article {
     color: var(--primary-color);
 }
 
+#form,
 article {
     position: absolute;
     top: 350px;
