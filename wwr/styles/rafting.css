@@ -51,7 +51,6 @@ article {
     color: var(--primary-color);
 }
 
-#form,
 article {
     position: absolute;
     top: 350px;
@@ -141,14 +140,49 @@ footer nav a img {
 }
 
 form {
-    width: 50%;
-    height: 200px;
+    width: 650px;
+    padding: 1rem;
     border: 1px solid #000;
-    display: flex;
-    flex-direction: column;
+    border-radius: 0.5rem;
+    font-size: 1.2em;
+    background-color: aliceblue;
+    display: grid;
 }
 
-#submit {
-    text-align: center;
-    justify-content: baseline;
+form div {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(168, 220, 220);
+    color: azure;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(101, 142, 218);
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
 }
