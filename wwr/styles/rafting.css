@@ -66,6 +66,10 @@ article {
     color: var(--primary-color);
 }
 
+article h2 {
+    color: #000;
+}
+
 header {
     background-color: var(--secondary-color);
 }
@@ -241,7 +245,7 @@ tbody>tr:nth-of-type(even) {
     width: 150px;
 }
 
-.next{
+.next {
     font-size: larger;
     text-decoration: none;
 }
