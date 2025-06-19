@@ -249,6 +249,7 @@ tbody>tr:nth-of-type(even) {
 .next {
     font-size: larger;
     text-decoration: none;
+    text-align: right;
 }
 
 #testimonies div {
