@@ -96,7 +96,8 @@ footer {
     height: auto;
 }
 
-.hero article img {
+.hero article img,
+#testimonies div img {
     float: right;
     width: 20%;
 }
@@ -248,4 +249,11 @@ tbody>tr:nth-of-type(even) {
 .next {
     font-size: larger;
     text-decoration: none;
+}
+
+#testimonies div {
+    width: 95%;
+    padding: 50px;
+    text-align: left;
+    color: var(--primary-color);
 }
