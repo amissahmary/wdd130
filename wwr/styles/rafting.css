@@ -26,7 +26,11 @@ footer {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
     text-align: center;
@@ -99,7 +103,7 @@ footer {
 
 #layout {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 3fr;
 }
 
 #sub-layout {
@@ -140,11 +144,11 @@ footer nav a img {
 }
 
 form {
-    width: 650px;
+    width: 600px;
     padding: 1rem;
     border: 1px solid #000;
     border-radius: 0.5rem;
-    font-size: 1.2em;
+    font-size: 1em;
     background-color: aliceblue;
     display: grid;
 }
@@ -164,7 +168,7 @@ input,
 select,
 textarea {
     padding: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 button {
@@ -174,7 +178,7 @@ button {
     border: none;
     border-radius: 1rem;
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 button:hover {
@@ -190,4 +194,54 @@ input[type="checkbox"] {
 #content {
     display: grid;
     grid-template-columns: 2fr 2fr;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    text-align: center;
+}
+
+thead {
+    background-color: var(--secondary-color);
+}
+
+th,
+td {
+    border: 1px solid var(--primary-color);
+    padding: 8px 10px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tbody>tr:nth-of-type(even) {
+    background-color: lightblue;
+}
+
+#trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#trips img {
+    width: 150px;
+}
+
+.next{
+    font-size: larger;
+    text-decoration: none;
 }
