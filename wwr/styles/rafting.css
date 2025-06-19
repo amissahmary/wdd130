@@ -54,7 +54,7 @@ article {
 article {
     position: absolute;
     top: 350px;
-    width: 98%;
+    width: 95%;
     padding: 50px;
     text-align: left;
     opacity: 0.8;
@@ -169,8 +169,8 @@ textarea {
 
 button {
     margin: 1rem;
-    background-color: rgb(168, 220, 220);
-    color: azure;
+    background-color: rgb(152, 235, 235);
+    color: black;
     border: none;
     border-radius: 1rem;
     padding: 1rem;
@@ -185,4 +185,9 @@ input[type="checkbox"] {
     width: 22px;
     height: 22px;
     vertical-align: bottom;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
 }
